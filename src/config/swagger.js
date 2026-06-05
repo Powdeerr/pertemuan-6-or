@@ -13,7 +13,7 @@ const options = {
     },
     servers: [
       {
-        url: `pertemuan-6-or-production.up.railway.app`,
+        url: `https://pertemuan-6-or-production.up.railway.app`,
       },
     ],
     components: {
