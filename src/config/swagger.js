@@ -13,7 +13,7 @@ const options = {
     },
     servers: [
       {
-        url: `https://pertemuan-6-or-production.up.railway.app`,
+        url: `http://localhost:3000`,
       },
     ],
     components: {
@@ -34,7 +34,7 @@ const swaggerSpec = swaggerJsdoc(options);
 const setupSwagger = (app) => {
   app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-  console.log(`📖 Swagger UI: http://localhost:${process.env.PORT || 3000}/api-docs`);
+  console.log(`Swagger UI: http://localhost:${process.env.PORT || 3000}/api-docs`);
 };
 
 module.exports = { setupSwagger };

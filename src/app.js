@@ -38,9 +38,9 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
   res.json({
     success: true,
-    message: "📚 Selamat datang di API Manajemen Buku!",
+    message: "Selamat datang di API Manajemen Buku!",
     info: {
-      docs: `https://pertemuan-6-or-production.up.railway.app/api-docs`,
+      docs: `http://localhost:3000/api-docs`,
       version: "1.0.0",
       bootcamp: "OR 15 — Neo Telemetri",
     },
