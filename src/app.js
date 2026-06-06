@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
     success: true,
     message: "Selamat datang di API Manajemen Buku!",
     info: {
-      docs: `http://localhost:3000/api-docs`,
+      docs: `https://pertemuan-6-or-production-1a29.up.railway.app/api-docs`,
       version: "1.0.0",
       bootcamp: "OR 15 — Neo Telemetri",
     },
